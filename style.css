@@ -1,0 +1,306 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Hind Siliguri", sans-serif;
+}
+.m-w {
+  max-width: 80%;
+  margin: auto;
+}
+.btn {
+  background: rgb(253, 115, 81);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #26de81;
+  transition: 0.6s;
+}
+header {
+  background: rgb(38, 70, 83);
+}
+/*--------------- Header Navber  -------------*/
+.navber {
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+.navber .emty {
+  flex-basis: 40%;
+}
+.navber .menu {
+  flex-basis: auto;
+  text-align: center;
+}
+.navber .menu ul {
+}
+.navber .menu ul li {
+  list-style: none;
+  display: inline-block;
+}
+.navber .menu ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 2px 25px;
+}
+.navber .menu ul li a:hover {
+  background: rgb(45, 103, 126);
+  border-radius: 30px;
+  transition: 0.8s;
+}
+
+.navber .button .btn1 {
+  padding: 6px 20px;
+}
+
+/*-------------- Header container ---------------*/
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0px 60px 0px;
+  color: white;
+}
+.container .text_item {
+  flex-basis: 45%;
+}
+.container .text_item p {
+  font-weight: 200;
+  text-align: justify;
+}
+.container .text_item h1 {
+  font-size: 50px;
+  font-weight: 500;
+}
+.container .text_item button {
+  padding: 8px 45px;
+  font-size: 13px;
+  margin-top: 15px;
+}
+.container .img_item img {
+  width: 450px;
+
+  padding: 0px 40px;
+}
+
+/*----------------- Fetured Section -------------*/
+.fetured_section {
+  padding: 3rem 0;
+}
+.fetured_text {
+  text-align: center;
+}
+.fetured_text h1 {
+  font-size: 40px;
+}
+.fetured_text p {
+  color: rgb(252, 85, 34);
+  font-size: 16px;
+  font-weight: 600;
+}
+.fetured_text hr {
+  width: 40px;
+  margin: auto;
+  border-top: 1px solid rgb(252, 85, 34);
+}
+.fetured_img {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0 50px 0;
+}
+.fetured_img img {
+  max-width: 250px;
+}
+.f1 {
+  filter: grayscale(1);
+}
+
+/*------------------ Latest News section ----------------*/
+
+.latest-news-section {
+  text-align: center;
+  padding: 30px 0px 60px 0px;
+}
+.latest-news-section h1 {
+  padding-bottom: 4rem;
+}
+.lns-container {
+  display: flex;
+}
+.lns-container .item1 {
+  margin: 0 0.5rem;
+  text-align: justify;
+  border: 1px solid rgba(134, 131, 131, 0.2);
+  border-radius: 5px;
+  padding: 15px 20px;
+}
+.lns-container .item1 img {
+  width: 100%;
+}
+.lns-container .item1 h1 {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  font-size: 1.7rem;
+}
+.lns-container .item1 p {
+  margin-top: 0.5rem;
+  color: rgb(134, 131, 131);
+}
+.lns-container .item1 .btn {
+  padding: 12px 35px;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+}
+.btn2 {
+  background: none;
+  border: 1px solid rgb(252, 85, 34);
+  color: rgb(252, 85, 34);
+}
+.btn2:hover {
+  background-color: rgb(252, 85, 34);
+  color: white;
+}
+/*--------------------- Clients section ------------------*/
+
+.clients-section {
+  padding: 30px 0px 60px 0px;
+  text-align: center;
+}
+.clients-section h1 {
+  padding-bottom: 50px;
+}
+.clients-section h1 span {
+  color: rgb(252, 85, 34);
+}
+.clients-section .cs-container {
+  display: flex;
+}
+.clients-section .cs-container .item1 {
+  margin: 1.2rem;
+  text-align: center;
+  border: 1px solid rgba(134, 131, 131, 0.2);
+  border-radius: 5px;
+  padding: 3.5% 3%;
+}
+.clients-section .cs-container .item1 img {
+  width: 60%;
+}
+.clients-section .cs-container .item1 p {
+  padding: 1.5rem 0px 1rem 0;
+  color: rgb(134, 131, 131);
+}
+.clients-section .cs-container .item1 .rating {
+}
+.clients-section .cs-container .item1 h6 {
+  font-weight: 900;
+  font-size: 0.8rem;
+}
+.h {
+  padding: 0.3rem 0;
+  color: rgb(52, 208, 247);
+}
+.fa {
+  color: rgb(252, 85, 34);
+}
+
+/*----------------- Question Section ----------------*/
+.question-section {
+  padding: 30px 0px 60px 0px;
+  text-align: center;
+}
+.question-section h1 {
+  padding-bottom: 50px;
+  font-size: 45px;
+}
+.question-section h1 span {
+  color: rgb(252, 85, 34);
+}
+.question-section .qs-container {
+  padding-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.question-section .qs-container img {
+  flex-basis: 40%;
+  width: 400px;
+}
+.question-section .qs-container .question {
+  flex-basis: 45%;
+}
+.question-section .qs-container .question .q1 {
+  padding: 10px 0;
+}
+.question-section .qs-container .question .q1 .q {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  padding: 0.6rem 1rem;
+}
+.question-section .qs-container .question .q1 .q h3 {
+  color: rgb(49, 45, 45);
+  margin-right: 20px;
+}
+.question-section .qs-container .question .q1 .q .fa {
+  color: rgb(49, 45, 45);
+  font-weight: 900;
+  cursor: pointer;
+}
+.question-section .qs-container .question .q1 .ans {
+  text-align: justify;
+  padding: 0% 15px;
+  display: none;
+}
+.q-a {
+  border: 1px solid rgba(134, 131, 131, 0.2);
+}
+/*--------------- Footer section ---------------*/
+footer {
+  background: rgb(11, 13, 23);
+  color: white;
+}
+.footer{
+  padding: 3rem 0 4rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-menu .menu1 ul {
+  display: flex;
+  margin: 10px 0;
+}
+.footer-menu .menu1 ul li {
+  list-style: none;
+  margin: 0 10px;
+}
+.footer-menu .menu1 ul li a {
+  text-decoration: none;
+  color: rgb(194, 192, 192);
+  font-weight: 100;
+  cursor: text;
+}
+.footer-menu span{
+  color: rgb(194, 192, 192);
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.footer-logo h4{
+  font-size:18px ;
+  font-weight: 300;
+  color: rgb(194, 192, 192);
+}
+.footer-logo img {
+  width: 120px;
+  border: 1px solid rgb(194, 192, 192);
+  border-radius: 8px;
+}
+.footer-logo .logo1 {
+margin: 10px 0;
+}
+
